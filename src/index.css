@@ -1,0 +1,26 @@
+@font-face{
+  font-family: Avenir_Medium;
+  src: url('./assets/fonts/AvenirLTStd-Medium.otf');
+}
+
+@font-face {
+  font-family: Avenir_Roman;
+  src: url('./assets/fonts/AvenirLTStd-Roman.otf');
+}
+
+@import "tailwindcss";
+
+/* Colors Variables */
+@theme{
+  --color-green-color: #006B3F;
+  --color-black-color: #000B0F;
+  --color-grey-color: #545454;
+  --color-yellow-color: #BCD848;
+  --color-red-color: #C54B4F;
+}
+
+/* Font Family Variables */
+@theme {
+  --font-avenir-roman: Avenir_Roman;
+  --font-avenir-medium: Avenir_Medium;
+}
