@@ -1,12 +1,22 @@
 // React Router Hooks
-import {Route, Routes} from 'react-router-dom';
+import { Routes } from 'react-router-dom';
 
+// Components
+import NavbBar from './componenets/navbar-component/NavBar';
+
+// Context
+import ContryContextApi from './context/CountryContext';
 
 const App = () => {
 
   return (
     <>
-      <Routes></Routes>
+      <ContryContextApi>
+        <NavbBar />
+        <Routes>
+
+        </Routes>
+      </ContryContextApi>
     </>
   )
 }
